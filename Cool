@@ -1,5 +1,6 @@
 // The AWT Graphics Program
 // This is the student, starting version of Graphics Lab 01.
+
 import java.awt.*;
 import java.applet.*;
 
@@ -44,9 +45,25 @@ public class Lab2 extends Applet
 
     	
         // DRAW APCS
-    	g.fillRect(450, 500, 20, 100);
-    	g.fillRect(450, 500, 80, 20);
-    	g.fillRect(510, 500, 20, 100);
+    	g.fillRect(400, 500, 20, 100);
+    	g.fillRect(400, 500, 40, 20);
+    	g.fillRect(440, 500, 20, 100);
+    	g.fillRect(400, 540, 40, 20);
+    	
+    	g.fillRect(480, 500, 20, 100);
+    	g.fillRect(480, 500, 40, 20);
+    	g.fillRect(520, 500, 20, 50);
+    	g.fillRect(500, 540, 40, 20);
+    	
+    	g.fillRect(560, 500, 20, 100);
+    	g.fillRect(560, 500, 55, 20);
+    	g.fillRect(560, 580, 55, 20);
+    	
+    	g.fillRect(635, 500, 55, 20);
+    	g.fillRect(635, 500, 20, 40);
+    	g.fillRect(635, 540, 55, 20);
+    	g.fillRect(670, 540, 20, 40);
+    	g.fillRect(635, 580, 55, 20);
     	
     	
         // DRAW PACMEN FLOWER
